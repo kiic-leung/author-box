@@ -1,5 +1,5 @@
 <% if project.present? && (controller.is_a?(ProjectsController) || controller.is_a?(WikiController)) %>
-  <% settings = Setting.plugin_author_plugin %>
+  <% settings = Setting.plugin_author %>
 
   <% if settings[:author_role_id].present? %>
     <% role = Role.find_by_id(settings[:author_role_id]) %>
