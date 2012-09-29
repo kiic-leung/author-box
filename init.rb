@@ -10,7 +10,7 @@ Redmine::Plugin.register :author do
     author_url 'http://www.andriylesyuk.com/'
     description 'Adds box with the author photo, name etc into the sidebar.'
     url 'http://projects.andriylesyuk.com/projects/redmine-author'
-    version '0.0.4'
+    version '0.1.0'
 
     settings :default => { :author_role_id => nil }, :partial => 'settings/author_role'
 end
